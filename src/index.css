@@ -1,0 +1,69 @@
+:root {
+  --font-primary: 'Inter', system-ui, -apple-system, sans-serif;
+  
+  /* Dull Rich Sophisticated Blue Colors */
+  --primary: #2c3e50;       /* Muted sophisticated navy/slate */
+  --primary-hover: #1a252f; /* Darker navy */
+  --primary-light: #eef2f6; /* Very light slate blue tint */
+  
+  --bg-main: #f8fafc;       /* Cool off-white */
+  --bg-card: #ffffff;
+  --bg-sidebar: #0f172a;    /* Deep slate/midnight */
+  
+  --text-main: #0f172a;     /* Deep slate */
+  --text-muted: #64748b;    /* Cool slate gray */
+  --text-sidebar: #cbd5e1;  /* Slate 300 for sidebar text */
+  --text-sidebar-hover: #ffffff;
+  
+  --border: #e2e8f0;
+  --border-light: #f1f5f9;
+  
+  --success: #10b981;
+  --success-bg: #d1fae5;
+  --danger: #e11d48;        /* Sophisticated rose/red */
+  --danger-bg: #ffe4e6;
+  --warning: #d97706;       /* Rich amber */
+  --warning-bg: #fef3c7;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.025);
+  --shadow-glass: 0 8px 32px 0 rgba(44, 62, 80, 0.08); /* Tinted shadow */
+  
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+  
+  /* Transitions */
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-primary);
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+}
