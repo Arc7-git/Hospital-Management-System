@@ -333,4 +333,4 @@ No license has been specified for this project. All rights are reserved by the a
 
 ## 👤 Author
 
-*Add your name and contact information here before publishing.*
+*Archit - architnikam10@gmail.com*
